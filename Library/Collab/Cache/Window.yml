@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Course Library.meta
+    - Assets/Course Library/Animals.meta
+    - Assets/Course Library/Animals/Dogs.meta
+    - Assets/Course Library/Animals/Dogs/Dog_Beagle_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_Beagle_01.prefab.meta
+    - Assets/Course Library/Animals/Dogs/Dog_BorderCollie_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_BorderCollie_01.prefab.meta
+    - Assets/Course Library/Animals/Dogs/Dog_BullDog_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_BullDog_01.prefab.meta
+    - Assets/Course Library/Animals/Dogs/Dog_BullTerrier_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_BullTerrier_01.prefab.meta
+    - Assets/Course Library/Animals/Dogs/Dog_Doberman_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_Doberman_01.prefab.meta
+    - Assets/Course Library/Animals/Dogs/Dog_GermanShepherd_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_GermanShepherd_01.prefab.meta
+    - Assets/Course Library/Animals/Dogs/Dog_Labrador_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_Labrador_01.prefab.meta
+    - Assets/Course Library/Animals/Dogs/Dog_Pug_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_Pug_01.prefab.meta
+    - Assets/Course Library/Animals/Dogs/Dog_RhodesianRidgeback_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_RhodesianRidgeback_01.prefab.meta
+    - Assets/Course Library/Animals/Dogs/Dog_SaintBernard_01.prefab
+    - Assets/Course Library/Animals/Dogs/Dog_SaintBernard_01.prefab.meta
+    - Assets/Course Library/Animals/Farm.meta
+    - Assets/Course Library/Animals/Farm/Animal_Chick.prefab
+    - Assets/Course Library/Animals/Farm/Animal_Chick.prefab.meta
+    - Assets/Course Library/Animals/Farm/Animal_Chicken_Brown.prefab
+    - Assets/Course Library/Animals/Farm/Animal_Chicken_Brown.prefab.meta
+    - Assets/Course Library/Animals/Farm/Animal_Chicken_White.prefab
+    - Assets/Course Library/Animals/Farm/Animal_Chicken_White.prefab.meta
+    - Assets/Course Library/Animals/Farm/Animal_Cow_Brown.prefab
+    - Assets/Course Library/Animals/Farm/Animal_Cow_Brown.prefab.meta
+    - Assets/Course Library/Animals/Farm/Animal_Cow_White.prefab
+    - Assets/Course Library/Animals/Farm/Animal_Cow_White.prefab.meta
+    - Assets/Course Library/Animals/Farm/Animal_Horse_Black.prefab
+    - Assets/Course Library/Animals/Farm/Animal_Horse_Black.prefab.meta
+    - Assets/Course Library/Animals/Farm/Animal_Horse_Brown.prefab
+    - Assets/Course Library/Animals/Farm/Animal_Horse_Brown.prefab.meta
+    - Assets/Course Library/Animals/Farm/Animal_Rooster_Brown.prefab
+    - Assets/Course Library/Animals/Farm/Animal_Rooster_Brown.prefab.meta
+    - Assets/Course Library/Animals/Forest.meta
+    - Assets/Course Library/Animals/Forest/Animal_Doe_01.prefab
+    - Assets/Course Library/Animals/Forest/Animal_Doe_01.prefab.meta
+    - Assets/Course Library/Animals/Forest/Animal_Doe_02.prefab
+    - Assets/Course Library/Animals/Forest/Animal_Doe_02.prefab.meta
+    - Assets/Course Library/Animals/Forest/Animal_Fox_01.prefab
+    - Assets/Course Library/Animals/Forest/Animal_Fox_01.prefab.meta
+    - Assets/Course Library/Animals/Forest/Animal_Fox_02.prefab
+    - Assets/Course Library/Animals/Forest/Animal_Fox_02.prefab.meta
+    - Assets/Course Library/Animals/Forest/Animal_Moose_01.prefab
+    - Assets/Course Library/Animals/Forest/Animal_Moose_01.prefab.meta
+    - Assets/Course Library/Animals/Forest/Animal_Moose_02.prefab
+    - Assets/Course Library/Animals/Forest/Animal_Moose_02.prefab.meta
+    - Assets/Course Library/Animals/Forest/Animal_Stag_01.prefab
+    - Assets/Course Library/Animals/Forest/Animal_Stag_01.prefab.meta
+    - Assets/Course Library/Animals/Forest/Animal_Stag_02.prefab
+    - Assets/Course Library/Animals/Forest/Animal_Stag_02.prefab.meta
+    - Assets/Course Library/Food.meta
+    - Assets/Course Library/Food/Food_Banana_01.prefab
+    - Assets/Course Library/Food/Food_Banana_01.prefab.meta
+    - Assets/Course Library/Food/Food_Bone_01.prefab
+    - Assets/Course Library/Food/Food_Bone_01.prefab.meta
+    - Assets/Course Library/Food/Food_Cookie_01.prefab
+    - Assets/Course Library/Food/Food_Cookie_01.prefab.meta
+    - Assets/Course Library/Food/Food_EnergyCan_01.prefab
+    - Assets/Course Library/Food/Food_EnergyCan_01.prefab.meta
+    - Assets/Course Library/Food/Food_Fish_Cooked.prefab
+    - Assets/Course Library/Food/Food_Fish_Cooked.prefab.meta
+    - Assets/Course Library/Food/Food_Organic_Apple_01.prefab
+    - Assets/Course Library/Food/Food_Organic_Apple_01.prefab.meta
+    - Assets/Course Library/Food/Food_Organic_Apple_03.prefab
+    - Assets/Course Library/Food/Food_Organic_Apple_03.prefab.meta
+    - Assets/Course Library/Food/Food_Organic_Carrot.prefab
+    - Assets/Course Library/Food/Food_Organic_Carrot.prefab.meta
+    - Assets/Course Library/Food/Food_Organic_Pear_02.prefab
+    - Assets/Course Library/Food/Food_Organic_Pear_02.prefab.meta
+    - Assets/Course Library/Food/Food_Pizza_01.prefab
+    - Assets/Course Library/Food/Food_Pizza_01.prefab.meta
+    - Assets/Course Library/Food/Food_Sandwich_01.prefab
+    - Assets/Course Library/Food/Food_Sandwich_01.prefab.meta
+    - Assets/Course Library/Food/Food_Steak_01.prefab
+    - Assets/Course Library/Food/Food_Steak_01.prefab.meta
+    - Assets/Course Library/Food/Food_Wine_01.prefab
+    - Assets/Course Library/Food/Food_Wine_01.prefab.meta
+    - Assets/Course Library/Humans.meta
+    - Assets/Course Library/Humans/SimpleFarmer_Black.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_Black.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_Brown.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_Brown.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_Daughter_Black.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_Daughter_Black.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_Daughter_Brown.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_Daughter_Brown.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_Daughter_White.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_Daughter_White.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_FarmWrangler_Black.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_FarmWrangler_Black.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_FarmWrangler_Brown.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_FarmWrangler_Brown.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_FarmWrangler_White.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_FarmWrangler_White.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_White.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_White.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_Wife_Black.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_Wife_Black.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_Wife_Brown.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_Wife_Brown.prefab.meta
+    - Assets/Course Library/Humans/SimpleFarmer_Wife_White.prefab
+    - Assets/Course Library/Humans/SimpleFarmer_Wife_White.prefab.meta
+    - Assets/Course Library/Materials.meta
+    - Assets/Course Library/Materials/Material_Concrete.mat
+    - Assets/Course Library/Materials/Material_Concrete.mat.meta
+    - Assets/Course Library/Materials/Material_Grass.mat
+    - Assets/Course Library/Materials/Material_Grass.mat.meta
+    - Assets/Course Library/Materials/Material_Gravel.mat
+    - Assets/Course Library/Materials/Material_Gravel.mat.meta
+    - Assets/Course Library/Materials/Material_Sand.mat
+    - Assets/Course Library/Materials/Material_Sand.mat.meta
+    - Assets/Course Library/_Source_Files.meta
+    - Assets/Course Library/_Source_Files/FBX.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Deer.fbx
+    - Assets/Course Library/_Source_Files/FBX/Deer.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Fox.fbx
+    - Assets/Course Library/_Source_Files/FBX/Fox.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Items_Cookie_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Items_Cookie_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Items_EnergyCan_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Items_EnergyCan_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Items_Pizza_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Items_Pizza_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Items_Sandwich_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Items_Sandwich_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Items_Wine_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Items_Wine_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SA_Animal_Birds.fbx
+    - Assets/Course Library/_Source_Files/FBX/SA_Animal_Birds.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SA_Animal_Chick.fbx
+    - Assets/Course Library/_Source_Files/FBX/SA_Animal_Chick.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SA_Animal_CowBull.fbx
+    - Assets/Course Library/_Source_Files/FBX/SA_Animal_CowBull.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SA_Animal_Horse.fbx
+    - Assets/Course Library/_Source_Files/FBX/SA_Animal_Horse.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Fish_Cooked.fbx
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Fish_Cooked.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Apple_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Apple_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Apple_03.fbx
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Apple_03.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Carrot.fbx
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Carrot.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Pear_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Pear_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Icon_Banana_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Icon_Banana_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Bone_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Bone_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Steak_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Steak_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SimpleDogs.fbx
+    - Assets/Course Library/_Source_Files/FBX/SimpleDogs.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx
+    - Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx.meta
+    - Assets/Course Library/_Source_Files/Materials.meta
+    - Assets/Course Library/_Source_Files/Materials/Black.mat
+    - Assets/Course Library/_Source_Files/Materials/Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleAnimalsFarm.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleAnimalsFarm.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleForestAnimals.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleForestAnimals.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleItems.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleItems.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleShopInteriors.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleShopInteriors.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/lambert1.mat
+    - Assets/Course Library/_Source_Files/Materials/lambert1.mat.meta
+    - Assets/Course Library/_Source_Files/Misc.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_Body.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_Body.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_Head.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_Head.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/SA_Animal_Birds.controller
+    - Assets/Course Library/_Source_Files/Misc/SA_Animal_Birds.controller.meta
+    - Assets/Course Library/_Source_Files/Misc/SA_Animal_Chick.controller
+    - Assets/Course Library/_Source_Files/Misc/SA_Animal_Chick.controller.meta
+    - Assets/Course Library/_Source_Files/Misc/SA_Animal_CowBull.controller
+    - Assets/Course Library/_Source_Files/Misc/SA_Animal_CowBull.controller.meta
+    - Assets/Course Library/_Source_Files/Misc/SA_Animal_Horse.controller
+    - Assets/Course Library/_Source_Files/Misc/SA_Animal_Horse.controller.meta
+    - Assets/Course Library/_Source_Files/Misc/SD_Animal_Dog.controller
+    - Assets/Course Library/_Source_Files/Misc/SD_Animal_Dog.controller.meta
+    - Assets/Course Library/_Source_Files/Misc/SFA_Animal_Deer.controller
+    - Assets/Course Library/_Source_Files/Misc/SFA_Animal_Deer.controller.meta
+    - Assets/Course Library/_Source_Files/Misc/SFA_Animal_Fox.controller
+    - Assets/Course Library/_Source_Files/Misc/SFA_Animal_Fox.controller.meta
+    - Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller
+    - Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller.meta
+    - Assets/Course Library/_Source_Files/Textures.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleAnimalsFarm.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleAnimalsFarm.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleDogs.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleDogs.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleForestAnimalsTexture.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleForestAnimalsTexture.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleItems.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleItems.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleShopInterior_Texture.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleShopInterior_Texture.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Texture_Conrete.png
+    - Assets/Course Library/_Source_Files/Textures/Texture_Conrete.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Texture_Grass.png
+    - Assets/Course Library/_Source_Files/Textures/Texture_Grass.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Texture_Gravel.png
+    - Assets/Course Library/_Source_Files/Textures/Texture_Gravel.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Texture_Sand.png
+    - Assets/Course Library/_Source_Files/Textures/Texture_Sand.png.meta
+    - Assets/Course Library/_Source_Files/_LICENSE.txt
+    - Assets/Course Library/_Source_Files/_LICENSE.txt.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Prototype 2.unity
+    - Assets/Scenes/Prototype 2.unity.meta
+    - Assets/Scenes/Prototype 2Settings.lighting
+    - Assets/Scenes/Prototype 2Settings.lighting.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/PlayerController.cs
+    - Assets/Scripts/PlayerController.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
