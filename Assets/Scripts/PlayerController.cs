@@ -5,15 +5,16 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private float horizontalInput;
+    private float verticalInput;
     public float speed = 15.0f;    
     public float xRange = 20.0f;
-    public GameObject projectilePrefab;
-    private ObjectPool pool;
+    public float zRange = 20.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        pool =GetComponent<ObjectPool>();
+        // Get the player's rigidbody component
+        Rigidbody playerRb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -21,7 +22,7 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
 
-        // Move the vehicle forward
+        // Move the player left and right
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
         if (transform.position.x < -xRange)
@@ -33,11 +34,18 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        verticalInput = Input.GetAxis("Vertical");
+
+        // Move the player forward and backward
+        transform.Translate(Vector3.forward * verticalInput * Time.deltaTime * speed);
+
+        if (transform.position.z < -zRange)
         {
-            // Launch a projectile from the player
-            //Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
-            pool.Spawn(transform.position);
+            transform.position = new Vector3(transform.position.x, transform.position.y, -zRange);
+        }
+        else if (transform.position.z > zRange)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, zRange);
         }
     }
 }
