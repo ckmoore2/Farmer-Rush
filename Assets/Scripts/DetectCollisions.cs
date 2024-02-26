@@ -7,7 +7,7 @@ public class DetectCollisions : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
-        Debug.Log("Game Over!");
+        Debug.Log("Game Over! if hit wall");
     }
 
     // Start is called before the first frame update
