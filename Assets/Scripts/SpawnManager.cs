@@ -11,6 +11,8 @@ public class SpawnManager : MonoBehaviour
     private float startDelay = 2;
     private float spawnInterval = 1.5f;
 
+    private bool isGameOver = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,13 +22,25 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (isGameOver)
+        {
+            CancelInvoke("SpawnRandomAnimal");
+        }
     }
 
     void SpawnRandomAnimal()
     {
-        int animalIndex = Random.Range(0, animalPrefabs.Length);
-        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
-        Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
+        if (!isGameOver)
+        {
+            int animalIndex = Random.Range(0, animalPrefabs.Length);
+            Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+            Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
+        }
+    }
+
+    public void GameOver()
+    {
+        isGameOver = true;
+        CancelInvoke("SpawnRandomAnimal");
     }
 }

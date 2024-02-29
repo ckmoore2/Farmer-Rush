@@ -9,7 +9,16 @@ public class CameraFollow : MonoBehaviour
 
     void LateUpdate()
     {
-        // Update camera's position to the player's position plus the offset
-        transform.position = player.position + offset;
+        // Check if the player exists
+        if (player != null)
+        {
+            // Update camera's position to the player's position plus the offset
+            transform.position = player.position + offset;
+        }
+        else
+        {
+            // The player is destroyed - add your end-game actions here
+            Debug.Log("Player destroyed - Game Over");
+        }
     }
 }

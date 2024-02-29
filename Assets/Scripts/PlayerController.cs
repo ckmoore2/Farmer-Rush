@@ -10,11 +10,12 @@ public class PlayerController : MonoBehaviour
     public float xRange = 20.0f;
     public float zRange = 20.0f;
 
+    private Rigidbody playerRb; // Declare the player's rigidbody component
+
     // Start is called before the first frame update
     void Start()
     {
-        // Get the player's rigidbody component
-        Rigidbody playerRb = GetComponent<Rigidbody>();
+        playerRb = GetComponent<Rigidbody>(); // Get the player's rigidbody component
     }
 
     // Update is called once per frame
@@ -48,4 +49,6 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(transform.position.x, transform.position.y, zRange);
         }
     }
+
+    
 }

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6811481533747529071}
   - component: {fileID: 4740338534488231542}
   - component: {fileID: -8770914291394259900}
+  - component: {fileID: 3642995373359881226}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Enemy
@@ -129,6 +130,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 245d28a6b9a43994eac97b147bee4267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3642995373359881226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8090708116169662614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d48e904ad245dc44b5d433ec7bd1669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8090708116169665196
