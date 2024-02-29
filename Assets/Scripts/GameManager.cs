@@ -27,8 +27,11 @@ public class GameManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        GameOver();
-        EventManager.OnTimerStop();
+        if (other.CompareTag("Win"))
+        {
+            GameOver();
+            EventManager.OnTimerStop();
+        }
     }
 
     void Update()
